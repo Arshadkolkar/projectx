@@ -5,10 +5,10 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "kp-labs-terraform-state"
+    bucket = "projectx-tf-state"
     key = "Terraform_state_file/tf_state"
-    region = "us-east-2"
+    region = "us-east-1"
     profile = "default"
-    dynamodb_table = "kp-labs_dynamodb_table_stage_lock"
+    dynamodb_table = "Projectx_lock"
   }
 }
