@@ -1,0 +1,3 @@
+[submodule "terraform_modules"]
+	path = terraform_modules
+	url = https://github.com/Arshadkolkar/terraform_modules.git
